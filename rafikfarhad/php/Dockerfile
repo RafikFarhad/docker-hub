@@ -9,7 +9,7 @@ ARG DEBUG_IDE_KEY=ddebug
 
 WORKDIR /var/www
 RUN apt-get update && \
-    apt-get install -y libzip-dev libonig-dev libpng-dev
+    apt-get install -y libzip-dev libonig-dev libpng-dev unzip
 RUN apt-get clean && \
     docker-php-ext-install pdo_mysql mbstring zip exif pcntl sockets json bcmath
 # RUN docker-php-ext-configure gd --with-gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ --with-png-dir=/usr/include/

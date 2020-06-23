@@ -1,0 +1,3 @@
+[submodule "k8s-nginx-letsencrypt"]
+	path = k8s-nginx-letsencrypt
+	url = git@github.com:RafikFarhad/k8s-nginx-letsencrypt.git
