@@ -20,7 +20,7 @@
 | BUILD  | PROD | PROD / DEV
 | DEBUG_IP | 0.0.0.0 | {ip}
 | DEBUG_PORT | 9999 | {integer}
-| DEBUG_PORT | ddebug | {string}
+| DEBUG_IDE_KEY | ddebug | {string}
 
 
 ### Example
