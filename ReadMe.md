@@ -13,7 +13,7 @@ Available Tags:
 - 1.1.0
 - 2.0.0
 - 2.0.1
-- 7.4-fpm : latest
+- 2.0.2 (Composer version 2)
 
 ### [https://hub.docker.com/r/rafikfarhad/k8s-nginx-letsencrypt](https://hub.docker.com/r/rafikfarhad/k8s-nginx-letsencrypt)
 Available Tags: 
